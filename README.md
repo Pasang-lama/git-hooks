@@ -1,4 +1,5 @@
-# What is git hooks?
+#  Automatically push to the master branch after commit
+
 Git hooks are scripts that Git executes automatically in response to specific events in a Git repository. They allow you to automate tasks, enforce policies, and customize your Git workflow.
 Hooks are stored in the .git/hooks directory of a Git repository. They are typically written in shell scripting, but you can use any scripting language as long as the script is executable.
 
