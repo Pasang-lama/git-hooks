@@ -24,3 +24,20 @@ Edit the script and make it executable:
 bash
   
 1. chmod +x .git/hooks/pre-commit
+
+## Steps to Set Up a Post-Commit Hook on Windows
+
+1. Locate the Hooks Directory Navigate to the .git/hooks directory in your repository.
+
+2. Create the post-commit Hook
+
+    * If a post-commit.sample file exists, rename it to post-commit (without the .sample extension).
+    * If it doesn’t exist, create a new file named post-commit.
+    * inside post-commit file wirte the following code:
+     ``` 
+     #!/bin/sh
+     git push origin master
+
+
+
+
